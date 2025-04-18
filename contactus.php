@@ -4,6 +4,7 @@ $servername = "localhost";
 $username = "root";
 $password = ""; // Enter your MySQL root password here if you have one
 $dbname = "taxi";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
