@@ -186,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
     </div>
-
+z
     <div class="footer">
         <center><p style="color: white;">&copy; 2025 Company Name. All Rights Reserved.</p></center>
     </div>
