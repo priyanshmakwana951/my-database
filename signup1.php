@@ -147,15 +147,15 @@ form input {
             <h1>City Taxi</h1>
             <p>Sign-up Page</p>
         </div>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <input type="text" name="fullname" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit" class="cta-btn">Create Account</button>
         </form>
         <div class="social-login">
-            <button>Sign up with Google</button>
-            <button>Sign up with Facebook</button>
+            <button type="button">Sign up with Google</button>
+            <button type="button">Sign up with Facebook</button>
         </div>
     </div>
 </body>
